@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dictionar</title>
+	</head>
+	<body>
+		<h1 style="color: rgb(255, 0, 0); text-align: center; font-size: 60px;">Proiect 3</h1>
+		<h2 style="color: rgb(0, 0, 0); text-align: center; font-size: 50px;">Dictionar</h2>
+		<br>
+		<div>
+			<label for="word">1. Scrie un cuvant:</label><br>
+			<input type="text" id="word">
+			<button type="button" id="submitButton" onclick="submitFunction()">Submit</button>
+		</div>
+		<p>2. Iata cuvintele pe care le-ai introdus in dictionar:</p>
+		<p id="dictionary"></p>
+		<div>
+			<label for="searched_word">3. Cauta un cuvant introdus in dictionar:</label><br>
+			<input type="text" id="searched_word">
+			<button type="button" id="search_button" onclick="searchFunction()">Search</button>
+		</div>
+		<p id="message"></p>
+		<script src='script.js'></script>
+	</body>
+</html>
